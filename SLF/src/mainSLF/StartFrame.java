@@ -53,7 +53,7 @@ public class StartFrame extends JFrame {
 	      cont=new JLayeredPane();
       
 	      crPan = (CreatePanel) SetPanels("StartMenuCreatePanel", new CreatePanel(), cont);
-	      nnPan = (NewNamePanel) SetPanels("StartMenuNewNamePanel", new NewNamePanel(), cont);
+	      nnPan = (NewNamePanel) SetPanels("а", new NewNamePanel(), cont);
 	      stPan = (StartPanel) SetPanels("StartMenuStartPanel", new StartPanel(), cont);
 	      hePan = (HelpPanel) SetPanels("StartMenuHelpPanel", new HelpPanel(), cont);
 	      sePan =  (SettingsPanel) SetPanels("StartMenuSettingsPanel", new SettingsPanel(), cont);
